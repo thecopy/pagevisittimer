@@ -1,0 +1,19 @@
+{
+  "name": "pagevisittimer",
+  "version": "0.0.3",
+  "description": "Measures the time visitors spends on individual pages",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^2.0.33",
+    "websocket": "^1.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "Erik Jonsson Thoren",
+  "license": "ISC"
+}
