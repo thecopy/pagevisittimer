@@ -1,6 +1,6 @@
 {
   "name": "pagevisittimer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Measures the time visitors spends on individual pages",
   "main": "index.js",
   "dependencies": {
