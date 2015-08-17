@@ -3,8 +3,8 @@
 The package `pagevisisttimer` enables  use of websockets to measure the time a visitor stays on the pages of your site. 
 
 # Prerequisites
-* MongoDB is required. Feel free to send a pull request if you have implemented another backing.
-
+* MongoDB and the npm package `mongodb` is required. Feel free to send a pull request if you have implemented another backing.
+* npm package `websocket`
 ## Installation & Usage Example
 
 1. `npm install pagevisittimer`
