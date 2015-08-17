@@ -9,6 +9,7 @@ Client side script `pagevisisttimer.js` connects to the websocket, and will send
 # Prerequisites
 * MongoDB and the npm package `mongodb` is required. Feel free to send a pull request if you have implemented another backing.
 * npm package `websocket`
+
 ## Installation & Usage Example
 
 1. `npm install pagevisittimer`
