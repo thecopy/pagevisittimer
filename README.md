@@ -41,10 +41,9 @@ app.get('/getvisits/summary', function(req,res){
                 }
             }
             if(found == 0){
-                console.log(curr)
                 urls.push({url: curr._id.url, visits:1, max:curr.value, total: 0});
             }
-        }console.log(urls)
+        }
         for(var j=0; j<urls.length; j++){
             var curr = urls[j];
             res.write(curr.url + ": " + curr.visits + " visits, in total " 
