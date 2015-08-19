@@ -41,7 +41,7 @@ app.get('/getvisits/summary', function(req,res){
                 }
             }
             if(found == 0){
-                urls.push({url: curr._id.url, visits:1, max:curr.value, total: 0});
+                urls.push({url: curr._id.url, visits:1, max:curr.value, total: curr.value});
             }
         }
         for(var j=0; j<urls.length; j++){
